@@ -1,0 +1,17 @@
+/* Add to your Tailwind CSS file */
+.navbar {
+    @apply bg-gradient-to-r from-blue-500 to-blue-700 shadow-md;
+  }
+  
+  .navbar-item {
+    @apply text-white hover:bg-blue-600 px-4 py-2 rounded transition duration-300;
+  }
+  
+  .navbar-logo {
+    @apply h-8 w-8 mr-2;
+  }
+  
+  .search-bar {
+    @apply border border-blue-500 rounded-full px-3 py-1 shadow-inner;
+  }
+  
